@@ -1,0 +1,16 @@
+﻿@iot.id,@iot.selfLink,Datastreams@iot.navigationLink,name,definition,description
+1,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(1),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(1)/Datastreams,平均風速,https://www1.city.tamba.lg.jp/api-description/sensor,"平均風速の計測
+00.0～ 90.0m/s"
+2,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(2),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(2)/Datastreams,平均風向,https://www1.city.tamba.lg.jp/api-description/sensor,"00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+3,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(3),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(3)/Datastreams,最大瞬間風速,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~ 90.0m/s
+4,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(4),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(4)/Datastreams,最大風速時風向,https://www1.city.tamba.lg.jp/api-description/sensor,"00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+5,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(5),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(5)/Datastreams,気温,https://www1.city.tamba.lg.jp/api-description/sensor,-50.0~50.0℃
+6,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(6),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(6)/Datastreams,湿度,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~99.9%
+7,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(7),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(7)/Datastreams,10分間移動積算雨量,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~999.5mm
+8,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(8),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(8)/Datastreams,1時間移動積算雨量,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~999.5mm
+9,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(9),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(9)/Datastreams,日雨量,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~999.5mm
+10,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(10),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(10)/Datastreams,累計雨量,https://www1.city.tamba.lg.jp/api-description/sensor,0.0~999.5mm
+11,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(11),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(11)/Datastreams,日射(日積算),https://www1.city.tamba.lg.jp/api-description/sensor,0.00~32.00MJ/m2
+12,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(12),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(12)/Datastreams,日照(日積算),https://www1.city.tamba.lg.jp/api-description/sensor,0~1440min(分)
+13,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(13),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(13)/Datastreams,現地気圧,https://www1.city.tamba.lg.jp/api-description/sensor,800.0~1060.0hPa
+14,https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(14),https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(14)/Datastreams,海面気圧,https://www1.city.tamba.lg.jp/api-description/sensor,800.0~1060.0hPa

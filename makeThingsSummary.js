@@ -14,3 +14,6 @@ for (const t of things) {
   delete t.properties;
 }
 await Deno.writeTextFile("data/things_summary.csv", CSV.stringify(things));
+
+const oprop = JSON.parse(await Deno.readTextFile("data/observedproperties.json"));
+await Deno.writeTextFile("data/observedproperties.csv", CSV.stringify(oprop.value));
