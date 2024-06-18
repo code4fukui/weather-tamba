@@ -1,0 +1,277 @@
+{
+  "@iot.count": 17,
+  "value": [
+    {
+      "@iot.id": 1,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)/Things",
+      "name": "柏原自治会館",
+      "description": "柏原自治会館",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.079926,
+          35.129368
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 2,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)/Things",
+      "name": "丹波市役所",
+      "description": "丹波市役所",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.035848,
+          35.177114
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 3,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)/Things",
+      "name": "南小学校",
+      "description": "南小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.01758,
+          35.135988
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 4,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)/Things",
+      "name": "北小学校",
+      "description": "北小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.044817,
+          35.1995
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 5,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)/Things",
+      "name": "青垣支所",
+      "description": "青垣支所",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.002163,
+          35.248585
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 6,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)/Things",
+      "name": "神楽の郷交流センター",
+      "description": "神楽の郷交流センター",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          134.963502,
+          35.248664
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 7,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)/Things",
+      "name": "やまびこセンター萬歳山",
+      "description": "やまびこセンター萬歳山",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          134.987878,
+          35.271122
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 8,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)/Things",
+      "name": "はるべの郷春日部荘",
+      "description": "はるべの郷春日部荘",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.129857,
+          35.185474
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 9,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)/Things",
+      "name": "三尾荘",
+      "description": "三尾荘",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.164727,
+          35.141406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 10,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)/Things",
+      "name": "ふなき荘",
+      "description": "ふなき荘",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.07668,
+          35.176093
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 11,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)/Things",
+      "name": "上久下小学校",
+      "description": "上久下小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.088558,
+          35.086945
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 12,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)/Things",
+      "name": "山南支所",
+      "description": "山南支所",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.036093,
+          35.074337
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 13,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)/Things",
+      "name": "和田地域づくりセンター",
+      "description": "和田地域づくりセンター",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          134.974322,
+          35.092577
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 14,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)/Things",
+      "name": "竹田小学校",
+      "description": "竹田小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.136506,
+          35.247082
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 17,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)/Things",
+      "name": "三輪小学校",
+      "description": "三輪小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.110166,
+          35.198904
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 16,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)/Things",
+      "name": "鴨庄小学校（メンテナンス中）",
+      "description": "鴨庄小学校",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.164539,
+          35.197988
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "@iot.id": 15,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)/Things",
+      "name": "旧市島支所（メンテナンス中）",
+      "description": "市島支所",
+      "encodingType": "application/vnd.geo+json",
+      "location": {
+        "coordinates": [
+          135.135324,
+          35.210313
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

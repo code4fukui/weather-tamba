@@ -1,0 +1,117 @@
+{
+  "@iot.count": 14,
+  "value": [
+    {
+      "@iot.id": 1,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(1)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(1)/Datastreams",
+      "name": "平均風速",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "平均風速の計測\r\n00.0～ 90.0m/s"
+    },
+    {
+      "@iot.id": 2,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(2)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(2)/Datastreams",
+      "name": "平均風向",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+    },
+    {
+      "@iot.id": 3,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(3)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(3)/Datastreams",
+      "name": "最大瞬間風速",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~ 90.0m/s"
+    },
+    {
+      "@iot.id": 4,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(4)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(4)/Datastreams",
+      "name": "最大風速時風向",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+    },
+    {
+      "@iot.id": 5,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(5)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(5)/Datastreams",
+      "name": "気温",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "-50.0~50.0℃"
+    },
+    {
+      "@iot.id": 6,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(6)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(6)/Datastreams",
+      "name": "湿度",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~99.9%"
+    },
+    {
+      "@iot.id": 7,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(7)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(7)/Datastreams",
+      "name": "10分間移動積算雨量",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~999.5mm"
+    },
+    {
+      "@iot.id": 8,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(8)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(8)/Datastreams",
+      "name": "1時間移動積算雨量",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~999.5mm"
+    },
+    {
+      "@iot.id": 9,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(9)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(9)/Datastreams",
+      "name": "日雨量",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~999.5mm"
+    },
+    {
+      "@iot.id": 10,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(10)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(10)/Datastreams",
+      "name": "累計雨量",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.0~999.5mm"
+    },
+    {
+      "@iot.id": 11,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(11)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(11)/Datastreams",
+      "name": "日射(日積算)",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0.00~32.00MJ/m2"
+    },
+    {
+      "@iot.id": 12,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(12)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(12)/Datastreams",
+      "name": "日照(日積算)",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "0~1440min(分)"
+    },
+    {
+      "@iot.id": 13,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(13)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(13)/Datastreams",
+      "name": "現地気圧",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "800.0~1060.0hPa"
+    },
+    {
+      "@iot.id": 14,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(14)",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/ObservedProperties(14)/Datastreams",
+      "name": "海面気圧",
+      "definition": "https://www1.city.tamba.lg.jp/api-description/sensor",
+      "description": "800.0~1060.0hPa"
+    }
+  ]
+}

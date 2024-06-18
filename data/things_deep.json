@@ -1,0 +1,2433 @@
+[
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(1)",
+    "name": "柏原自治会館",
+    "description": "風向風速/温度/湿度/雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 1,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)/Things",
+        "time": "2019-05-31T10:34:50.375246+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 1,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(1)/Things",
+        "name": "柏原自治会館",
+        "description": "柏原自治会館",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.079926,
+            35.129368
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 1,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(1)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(1)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(1)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(1)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(1)/Observations",
+        "name": "柏原自治会館_平均風速",
+        "description": "柏原自治会館の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 2,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(2)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(2)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(2)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(2)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(2)/Observations",
+        "name": "柏原自治会館_平均風向",
+        "description": "柏原自治会館の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 3,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(3)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(3)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(3)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(3)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(3)/Observations",
+        "name": "柏原自治会館_最大瞬間風速",
+        "description": "柏原自治会館の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 4,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(4)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(4)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(4)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(4)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(4)/Observations",
+        "name": "柏原自治会館_最大風速時風向",
+        "description": "柏原自治会館の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 5,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(5)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(5)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(5)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(5)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(5)/Observations",
+        "name": "柏原自治会館_気温",
+        "description": "柏原自治会館の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 6,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(6)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(6)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(6)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(6)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(6)/Observations",
+        "name": "柏原自治会館_湿度",
+        "description": "柏原自治会館の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 7,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(7)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(7)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(7)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(7)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(7)/Observations",
+        "name": "柏原自治会館_10分間移動積算雨量",
+        "description": "柏原自治会館の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 8,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(8)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(8)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(8)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(8)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(8)/Observations",
+        "name": "柏原自治会館_1時間移動積算雨量",
+        "description": "柏原自治会館の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 9,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(9)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(9)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(9)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(9)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(9)/Observations",
+        "name": "柏原自治会館_日雨量",
+        "description": "柏原自治会館の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 10,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(10)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(10)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(10)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(10)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(10)/Observations",
+        "name": "柏原自治会館_累計雨量",
+        "description": "柏原自治会館の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(2)",
+    "name": "丹波市役所",
+    "description": "風向風速/温度/湿度/雨/現地気圧/海面気圧/日射/日照",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 2,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)/Things",
+        "time": "2019-05-31T10:35:03.321968+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 2,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(2)/Things",
+        "name": "丹波市役所",
+        "description": "丹波市役所",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.035848,
+            35.177114
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 11,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(11)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(11)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(11)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(11)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(11)/Observations",
+        "name": "丹波市役所_平均風速",
+        "description": "丹波市役所の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 12,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(12)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(12)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(12)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(12)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(12)/Observations",
+        "name": "丹波市役所_平均風向",
+        "description": "丹波市役所の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 13,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(13)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(13)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(13)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(13)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(13)/Observations",
+        "name": "丹波市役所_最大瞬間風速",
+        "description": "丹波市役所の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 14,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(14)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(14)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(14)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(14)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(14)/Observations",
+        "name": "丹波市役所_最大風速時風向",
+        "description": "丹波市役所の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 15,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(15)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(15)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(15)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(15)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(15)/Observations",
+        "name": "丹波市役所_気温",
+        "description": "丹波市役所の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 16,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(16)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(16)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(16)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(16)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(16)/Observations",
+        "name": "丹波市役所_湿度",
+        "description": "丹波市役所の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 17,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(17)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(17)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(17)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(17)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(17)/Observations",
+        "name": "丹波市役所_10分間移動積算雨量",
+        "description": "丹波市役所の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 18,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(18)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(18)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(18)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(18)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(18)/Observations",
+        "name": "丹波市役所_1時間移動積算雨量",
+        "description": "丹波市役所の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 19,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(19)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(19)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(19)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(19)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(19)/Observations",
+        "name": "丹波市役所_日雨量",
+        "description": "丹波市役所の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 20,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(20)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(20)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(20)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(20)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(20)/Observations",
+        "name": "丹波市役所_累計雨量",
+        "description": "丹波市役所の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 21,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(21)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(21)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(21)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(21)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(21)/Observations",
+        "name": "丹波市役所_日射(日積算)",
+        "description": "丹波市役所の日射(日積算)",
+        "unitOfMeasurement": {
+          "unit": "MJ/m2"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 22,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(22)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(22)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(22)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(22)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(22)/Observations",
+        "name": "丹波市役所_日照(日積算)",
+        "description": "丹波市役所の日照(日積算)",
+        "unitOfMeasurement": {
+          "unit": "min(分)"
+        },
+        "observationType": "OM_CountObservation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 23,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(23)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(23)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(23)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(23)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(23)/Observations",
+        "name": "丹波市役所_現地気圧",
+        "description": "丹波市役所の現地気圧",
+        "unitOfMeasurement": {
+          "unit": "hPa"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 24,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(24)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(24)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(24)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(24)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(24)/Observations",
+        "name": "丹波市役所_海面気圧",
+        "description": "丹波市役所の海面気圧",
+        "unitOfMeasurement": {
+          "unit": "hPa"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(3)",
+    "name": "南小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 3,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)/Things",
+        "time": "2019-05-31T10:35:13.653865+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 3,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(3)/Things",
+        "name": "南小学校",
+        "description": "南小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.01758,
+            35.135988
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 25,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(25)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(25)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(25)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(25)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(25)/Observations",
+        "name": "南小学校_10分間移動積算雨量",
+        "description": "南小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 26,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(26)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(26)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(26)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(26)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(26)/Observations",
+        "name": "南小学校_1時間移動積算雨量",
+        "description": "南小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 27,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(27)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(27)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(27)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(27)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(27)/Observations",
+        "name": "南小学校_日雨量",
+        "description": "南小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 28,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(28)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(28)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(28)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(28)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(28)/Observations",
+        "name": "南小学校_累計雨量",
+        "description": "南小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(4)",
+    "name": "北小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 4,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)/Things",
+        "time": "2019-05-31T10:35:23.738447+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 4,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(4)/Things",
+        "name": "北小学校",
+        "description": "北小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.044817,
+            35.1995
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 29,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(29)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(29)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(29)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(29)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(29)/Observations",
+        "name": "北小学校_10分間移動積算雨量",
+        "description": "北小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 30,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(30)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(30)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(30)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(30)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(30)/Observations",
+        "name": "北小学校_1時間移動積算雨量",
+        "description": "北小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 31,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(31)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(31)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(31)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(31)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(31)/Observations",
+        "name": "北小学校_日雨量",
+        "description": "北小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 32,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(32)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(32)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(32)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(32)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(32)/Observations",
+        "name": "北小学校_累計雨量",
+        "description": "北小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(5)",
+    "name": "青垣支所",
+    "description": "風向風速/温度/湿度/雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 5,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)/Things",
+        "time": "2019-05-31T10:35:32.904911+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 5,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(5)/Things",
+        "name": "青垣支所",
+        "description": "青垣支所",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.002163,
+            35.248585
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 33,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(33)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(33)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(33)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(33)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(33)/Observations",
+        "name": "青垣支所_平均風速",
+        "description": "青垣支所の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 34,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(34)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(34)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(34)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(34)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(34)/Observations",
+        "name": "青垣支所_平均風向",
+        "description": "青垣支所の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 35,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(35)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(35)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(35)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(35)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(35)/Observations",
+        "name": "青垣支所_最大瞬間風速",
+        "description": "青垣支所の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 36,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(36)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(36)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(36)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(36)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(36)/Observations",
+        "name": "青垣支所_最大風速時風向",
+        "description": "青垣支所の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 37,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(37)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(37)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(37)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(37)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(37)/Observations",
+        "name": "青垣支所_気温",
+        "description": "青垣支所の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 38,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(38)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(38)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(38)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(38)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(38)/Observations",
+        "name": "青垣支所_湿度",
+        "description": "青垣支所の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 39,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(39)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(39)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(39)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(39)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(39)/Observations",
+        "name": "青垣支所_10分間移動積算雨量",
+        "description": "青垣支所の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 40,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(40)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(40)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(40)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(40)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(40)/Observations",
+        "name": "青垣支所_1時間移動積算雨量",
+        "description": "青垣支所の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 41,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(41)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(41)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(41)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(41)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(41)/Observations",
+        "name": "青垣支所_日雨量",
+        "description": "青垣支所の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 42,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(42)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(42)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(42)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(42)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(42)/Observations",
+        "name": "青垣支所_累計雨量",
+        "description": "青垣支所の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)",
+    "name": "神楽の郷交流センター",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 6,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)/Things",
+        "time": "2019-05-31T10:35:41.390075+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 6,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(6)/Things",
+        "name": "神楽の郷交流センター",
+        "description": "神楽の郷交流センター",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            134.963502,
+            35.248664
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 43,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(43)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(43)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(43)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(43)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(43)/Observations",
+        "name": "神楽の郷交流センター_10分間移動積算雨量",
+        "description": "神楽の郷交流センターの10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 44,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(44)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(44)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(44)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(44)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(44)/Observations",
+        "name": "神楽の郷交流センター_1時間移動積算雨量",
+        "description": "神楽の郷交流センターの1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 45,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(45)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(45)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(45)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(45)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(45)/Observations",
+        "name": "神楽の郷交流センター_日雨量",
+        "description": "神楽の郷交流センターの日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 46,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(46)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(46)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(46)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(46)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(46)/Observations",
+        "name": "神楽の郷交流センター_累計雨量",
+        "description": "神楽の郷交流センターの累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(7)",
+    "name": "やまびこセンター萬歳山",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 7,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)/Things",
+        "time": "2019-05-31T10:35:51.172352+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 7,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(7)/Things",
+        "name": "やまびこセンター萬歳山",
+        "description": "やまびこセンター萬歳山",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            134.987878,
+            35.271122
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 47,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(47)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(47)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(47)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(47)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(47)/Observations",
+        "name": "やまびこセンター萬歳山_10分間移動積算雨量",
+        "description": "やまびこセンター萬歳山の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 48,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(48)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(48)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(48)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(48)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(48)/Observations",
+        "name": "やまびこセンター萬歳山_1時間移動積算雨量",
+        "description": "やまびこセンター萬歳山の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 49,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(49)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(49)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(49)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(49)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(49)/Observations",
+        "name": "やまびこセンター萬歳山_日雨量",
+        "description": "やまびこセンター萬歳山の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 50,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(50)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(50)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(50)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(50)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(50)/Observations",
+        "name": "やまびこセンター萬歳山_累計雨量",
+        "description": "やまびこセンター萬歳山の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(8)",
+    "name": "はるべの郷春日部荘",
+    "description": "風向風速/温度/湿度/雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 8,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)/Things",
+        "time": "2019-05-31T10:36:01.106077+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 8,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(8)/Things",
+        "name": "はるべの郷春日部荘",
+        "description": "はるべの郷春日部荘",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.129857,
+            35.185474
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 51,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(51)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(51)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(51)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(51)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(51)/Observations",
+        "name": "はるべの郷春日部荘_平均風速",
+        "description": "はるべの郷春日部荘の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 52,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(52)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(52)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(52)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(52)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(52)/Observations",
+        "name": "はるべの郷春日部荘_平均風向",
+        "description": "はるべの郷春日部荘の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 53,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(53)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(53)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(53)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(53)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(53)/Observations",
+        "name": "はるべの郷春日部荘_最大瞬間風速",
+        "description": "はるべの郷春日部荘の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 54,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(54)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(54)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(54)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(54)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(54)/Observations",
+        "name": "はるべの郷春日部荘_最大風速時風向",
+        "description": "はるべの郷春日部荘の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 55,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(55)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(55)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(55)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(55)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(55)/Observations",
+        "name": "はるべの郷春日部荘_気温",
+        "description": "はるべの郷春日部荘の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 56,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(56)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(56)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(56)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(56)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(56)/Observations",
+        "name": "はるべの郷春日部荘_湿度",
+        "description": "はるべの郷春日部荘の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 57,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(57)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(57)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(57)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(57)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(57)/Observations",
+        "name": "はるべの郷春日部荘_10分間移動積算雨量",
+        "description": "はるべの郷春日部荘の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 58,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(58)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(58)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(58)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(58)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(58)/Observations",
+        "name": "はるべの郷春日部荘_1時間移動積算雨量",
+        "description": "はるべの郷春日部荘の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 59,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(59)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(59)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(59)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(59)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(59)/Observations",
+        "name": "はるべの郷春日部荘_日雨量",
+        "description": "はるべの郷春日部荘の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 60,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(60)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(60)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(60)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(60)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(60)/Observations",
+        "name": "はるべの郷春日部荘_累計雨量",
+        "description": "はるべの郷春日部荘の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(9)",
+    "name": "三尾荘",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 9,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)/Things",
+        "time": "2019-05-31T10:36:09.920965+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 9,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(9)/Things",
+        "name": "三尾荘",
+        "description": "三尾荘",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.164727,
+            35.141406
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 61,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(61)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(61)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(61)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(61)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(61)/Observations",
+        "name": "三尾荘_10分間移動積算雨量",
+        "description": "三尾荘の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 62,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(62)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(62)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(62)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(62)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(62)/Observations",
+        "name": "三尾荘_1時間移動積算雨量",
+        "description": "三尾荘の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 63,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(63)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(63)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(63)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(63)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(63)/Observations",
+        "name": "三尾荘_日雨量",
+        "description": "三尾荘の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 64,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(64)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(64)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(64)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(64)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(64)/Observations",
+        "name": "三尾荘_累計雨量",
+        "description": "三尾荘の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(10)",
+    "name": "ふなき荘",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 10,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)/Things",
+        "time": "2019-05-31T10:36:20.420383+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 10,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(10)/Things",
+        "name": "ふなき荘",
+        "description": "ふなき荘",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.07668,
+            35.176093
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 65,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(65)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(65)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(65)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(65)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(65)/Observations",
+        "name": "ふなき荘_10分間移動積算雨量",
+        "description": "ふなき荘の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 66,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(66)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(66)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(66)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(66)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(66)/Observations",
+        "name": "ふなき荘_1時間移動積算雨量",
+        "description": "ふなき荘の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 67,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(67)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(67)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(67)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(67)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(67)/Observations",
+        "name": "ふなき荘_日雨量",
+        "description": "ふなき荘の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 68,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(68)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(68)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(68)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(68)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(68)/Observations",
+        "name": "ふなき荘_累計雨量",
+        "description": "ふなき荘の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(11)",
+    "name": "上久下小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 11,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)/Things",
+        "time": "2019-05-31T10:36:30.270231+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 11,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(11)/Things",
+        "name": "上久下小学校",
+        "description": "上久下小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.088558,
+            35.086945
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 69,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(69)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(69)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(69)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(69)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(69)/Observations",
+        "name": "上久下小学校_10分間移動積算雨量",
+        "description": "上久下小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 70,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(70)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(70)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(70)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(70)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(70)/Observations",
+        "name": "上久下小学校_1時間移動積算雨量",
+        "description": "上久下小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 71,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(71)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(71)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(71)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(71)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(71)/Observations",
+        "name": "上久下小学校_日雨量",
+        "description": "上久下小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 72,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(72)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(72)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(72)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(72)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(72)/Observations",
+        "name": "上久下小学校_累計雨量",
+        "description": "上久下小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(12)",
+    "name": "山南支所",
+    "description": "風向風速/温度/湿度/雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 12,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)/Things",
+        "time": "2019-05-31T10:36:39.521876+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 12,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(12)/Things",
+        "name": "山南支所",
+        "description": "山南支所",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.036093,
+            35.074337
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 73,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(73)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(73)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(73)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(73)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(73)/Observations",
+        "name": "山南支所_平均風速",
+        "description": "山南支所の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 74,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(74)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(74)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(74)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(74)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(74)/Observations",
+        "name": "山南支所_平均風向",
+        "description": "山南支所の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 75,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(75)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(75)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(75)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(75)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(75)/Observations",
+        "name": "山南支所_最大瞬間風速",
+        "description": "山南支所の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 76,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(76)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(76)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(76)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(76)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(76)/Observations",
+        "name": "山南支所_最大風速時風向",
+        "description": "山南支所の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 77,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(77)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(77)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(77)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(77)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(77)/Observations",
+        "name": "山南支所_気温",
+        "description": "山南支所の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 78,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(78)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(78)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(78)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(78)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(78)/Observations",
+        "name": "山南支所_湿度",
+        "description": "山南支所の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 79,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(79)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(79)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(79)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(79)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(79)/Observations",
+        "name": "山南支所_10分間移動積算雨量",
+        "description": "山南支所の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 80,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(80)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(80)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(80)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(80)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(80)/Observations",
+        "name": "山南支所_1時間移動積算雨量",
+        "description": "山南支所の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 81,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(81)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(81)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(81)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(81)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(81)/Observations",
+        "name": "山南支所_日雨量",
+        "description": "山南支所の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 82,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(82)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(82)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(82)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(82)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(82)/Observations",
+        "name": "山南支所_累計雨量",
+        "description": "山南支所の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(13)",
+    "name": "和田地域づくりセンター",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 13,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)/Things",
+        "time": "2019-05-31T10:36:49.624211+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 13,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(13)/Things",
+        "name": "和田地域づくりセンター",
+        "description": "和田地域づくりセンター",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            134.974322,
+            35.092577
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 83,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(83)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(83)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(83)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(83)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(83)/Observations",
+        "name": "和田地域づくりセンター_10分間移動積算雨量",
+        "description": "和田地域づくりセンターの10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 84,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(84)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(84)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(84)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(84)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(84)/Observations",
+        "name": "和田地域づくりセンター_1時間移動積算雨量",
+        "description": "和田地域づくりセンターの1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 85,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(85)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(85)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(85)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(85)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(85)/Observations",
+        "name": "和田地域づくりセンター_日雨量",
+        "description": "和田地域づくりセンターの日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 86,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(86)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(86)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(86)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(86)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(86)/Observations",
+        "name": "和田地域づくりセンター_累計雨量",
+        "description": "和田地域づくりセンターの累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(14)",
+    "name": "竹田小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 14,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)/Things",
+        "time": "2019-05-31T10:37:00.795402+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 14,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(14)/Things",
+        "name": "竹田小学校",
+        "description": "竹田小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.136506,
+            35.247082
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 87,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(87)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(87)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(87)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(87)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(87)/Observations",
+        "name": "竹田小学校_10分間移動積算雨量",
+        "description": "竹田小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 88,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(88)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(88)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(88)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(88)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(88)/Observations",
+        "name": "竹田小学校_1時間移動積算雨量",
+        "description": "竹田小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 89,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(89)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(89)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(89)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(89)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(89)/Observations",
+        "name": "竹田小学校_日雨量",
+        "description": "竹田小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 90,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(90)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(90)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(90)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(90)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(90)/Observations",
+        "name": "竹田小学校_累計雨量",
+        "description": "竹田小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(15)",
+    "name": "市島支所",
+    "description": "風向風速/温度/湿度/雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 15,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)/Things",
+        "time": "2019-05-31T10:37:10.487056+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 15,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(15)/Things",
+        "name": "旧市島支所（メンテナンス中）",
+        "description": "市島支所",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.135324,
+            35.210313
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 91,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(91)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(91)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(91)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(91)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(91)/Observations",
+        "name": "市島支所_平均風速",
+        "description": "市島支所の平均風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 92,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(92)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(92)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(92)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(92)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(92)/Observations",
+        "name": "市島支所_平均風向",
+        "description": "市島支所の平均風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 93,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(93)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(93)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(93)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(93)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(93)/Observations",
+        "name": "市島支所_最大瞬間風速",
+        "description": "市島支所の最大瞬間風速",
+        "unitOfMeasurement": {
+          "unit": "m/s"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 94,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(94)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(94)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(94)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(94)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(94)/Observations",
+        "name": "市島支所_気温",
+        "description": "市島支所の気温",
+        "unitOfMeasurement": {
+          "unit": "°C"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 95,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(95)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(95)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(95)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(95)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(95)/Observations",
+        "name": "市島支所_湿度",
+        "description": "市島支所の湿度",
+        "unitOfMeasurement": {
+          "unit": "%"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 96,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(96)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(96)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(96)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(96)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(96)/Observations",
+        "name": "市島支所_10分間移動積算雨量",
+        "description": "市島支所の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 97,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(97)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(97)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(97)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(97)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(97)/Observations",
+        "name": "市島支所_1時間移動積算雨量",
+        "description": "市島支所の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 98,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(98)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(98)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(98)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(98)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(98)/Observations",
+        "name": "市島支所_日雨量",
+        "description": "市島支所の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 99,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(99)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(99)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(99)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(99)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(99)/Observations",
+        "name": "市島支所_累計雨量",
+        "description": "市島支所の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 108,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(108)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(108)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(108)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(108)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(108)/Observations",
+        "name": "市島支所_最大風速時風向",
+        "description": "市島支所の最大風速時風向",
+        "unitOfMeasurement": {
+          "unit": "00:静穏,01:北北東02:北東,03:東北東,04:東,05:東南東,06:南東,07:南南東,08:南,09:南南西,10:南西,11:西南西,12:西,13:西北西,14:北西,15:北北西,16:北"
+        },
+        "observationType": "OM_Observation",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(16)",
+    "name": "鴨庄小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 16,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)/Things",
+        "time": "2019-05-31T10:37:19.369435+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 16,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(16)/Things",
+        "name": "鴨庄小学校（メンテナンス中）",
+        "description": "鴨庄小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.164539,
+            35.197988
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 100,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(100)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(100)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(100)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(100)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(100)/Observations",
+        "name": "鴨庄小学校_10分間移動積算雨量",
+        "description": "鴨庄小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 101,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(101)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(101)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(101)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(101)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(101)/Observations",
+        "name": "鴨庄小学校_1時間移動積算雨量",
+        "description": "鴨庄小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 102,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(102)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(102)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(102)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(102)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(102)/Observations",
+        "name": "鴨庄小学校_日雨量",
+        "description": "鴨庄小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 103,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(103)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(103)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(103)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(103)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(103)/Observations",
+        "name": "鴨庄小学校_累計雨量",
+        "description": "鴨庄小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  },
+  {
+    "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)",
+    "name": "三輪小学校",
+    "description": "雨",
+    "properties": null,
+    "HistoricalLocations": [
+      {
+        "@iot.id": 17,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)",
+        "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)/Locations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)/Things",
+        "time": "2019-05-31T10:37:30.738812+09:00"
+      }
+    ],
+    "Locations": [
+      {
+        "@iot.id": 17,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)",
+        "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)/HistoricalLocations",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Locations(17)/Things",
+        "name": "三輪小学校",
+        "description": "三輪小学校",
+        "encodingType": "application/vnd.geo+json",
+        "location": {
+          "coordinates": [
+            135.110166,
+            35.198904
+          ],
+          "type": "Point"
+        }
+      }
+    ],
+    "Datastreams": [
+      {
+        "@iot.id": 104,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(104)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(104)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(104)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(104)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(104)/Observations",
+        "name": "三輪小学校_10分間移動積算雨量",
+        "description": "三輪小学校の10分間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 105,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(105)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(105)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(105)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(105)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(105)/Observations",
+        "name": "三輪小学校_1時間移動積算雨量",
+        "description": "三輪小学校の1時間移動積算雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 106,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(106)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(106)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(106)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(106)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(106)/Observations",
+        "name": "三輪小学校_日雨量",
+        "description": "三輪小学校の日雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      },
+      {
+        "@iot.id": 107,
+        "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(107)",
+        "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(107)/Things",
+        "Sensors@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(107)/Sensors",
+        "ObservedProperties@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(107)/ObservedProperties",
+        "Observations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Datastreams(107)/Observations",
+        "name": "三輪小学校_累計雨量",
+        "description": "三輪小学校の累計雨量",
+        "unitOfMeasurement": {
+          "unit": "mm"
+        },
+        "observationType": "OM_Measurement",
+        "observedArea": null,
+        "phenomenonTime": null,
+        "resultTime": null
+      }
+    ]
+  }
+]

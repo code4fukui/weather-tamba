@@ -1,0 +1,131 @@
+{
+  "@iot.count": 18,
+  "value": [
+    {
+      "@iot.id": 1,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(1)/Things",
+      "time": "2019-05-31T10:34:50.375246+09:00"
+    },
+    {
+      "@iot.id": 2,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(2)/Things",
+      "time": "2019-05-31T10:35:03.321968+09:00"
+    },
+    {
+      "@iot.id": 3,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(3)/Things",
+      "time": "2019-05-31T10:35:13.653865+09:00"
+    },
+    {
+      "@iot.id": 4,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(4)/Things",
+      "time": "2019-05-31T10:35:23.738447+09:00"
+    },
+    {
+      "@iot.id": 5,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(5)/Things",
+      "time": "2019-05-31T10:35:32.904911+09:00"
+    },
+    {
+      "@iot.id": 6,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(6)/Things",
+      "time": "2019-05-31T10:35:41.390075+09:00"
+    },
+    {
+      "@iot.id": 7,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(7)/Things",
+      "time": "2019-05-31T10:35:51.172352+09:00"
+    },
+    {
+      "@iot.id": 8,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(8)/Things",
+      "time": "2019-05-31T10:36:01.106077+09:00"
+    },
+    {
+      "@iot.id": 9,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(9)/Things",
+      "time": "2019-05-31T10:36:09.920965+09:00"
+    },
+    {
+      "@iot.id": 10,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(10)/Things",
+      "time": "2019-05-31T10:36:20.420383+09:00"
+    },
+    {
+      "@iot.id": 11,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(11)/Things",
+      "time": "2019-05-31T10:36:30.270231+09:00"
+    },
+    {
+      "@iot.id": 12,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(12)/Things",
+      "time": "2019-05-31T10:36:39.521876+09:00"
+    },
+    {
+      "@iot.id": 13,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(13)/Things",
+      "time": "2019-05-31T10:36:49.624211+09:00"
+    },
+    {
+      "@iot.id": 14,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(14)/Things",
+      "time": "2019-05-31T10:37:00.795402+09:00"
+    },
+    {
+      "@iot.id": 15,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(15)/Things",
+      "time": "2019-05-31T10:37:10.487056+09:00"
+    },
+    {
+      "@iot.id": 16,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(16)/Things",
+      "time": "2019-05-31T10:37:19.369435+09:00"
+    },
+    {
+      "@iot.id": 17,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(17)/Things",
+      "time": "2019-05-31T10:37:30.738812+09:00"
+    },
+    {
+      "@iot.id": 18,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(18)",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(18)/Locations",
+      "Things@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/HistoricalLocations(18)/Things",
+      "time": "2019-07-07T10:38:13.772694+09:00"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "@iot.count": 17,
+  "value": [
+    {
+      "@iot.id": 1,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(1)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(1)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(1)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(1)/Datastreams",
+      "name": "柏原自治会館",
+      "description": "風向風速/温度/湿度/雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 2,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(2)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(2)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(2)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(2)/Datastreams",
+      "name": "丹波市役所",
+      "description": "風向風速/温度/湿度/雨/現地気圧/海面気圧/日射/日照",
+      "properties": null
+    },
+    {
+      "@iot.id": 3,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(3)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(3)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(3)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(3)/Datastreams",
+      "name": "南小学校",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 4,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(4)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(4)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(4)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(4)/Datastreams",
+      "name": "北小学校",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 5,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(5)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(5)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(5)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(5)/Datastreams",
+      "name": "青垣支所",
+      "description": "風向風速/温度/湿度/雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 6,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/Datastreams",
+      "name": "神楽の郷交流センター",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 7,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(7)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(7)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(7)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(7)/Datastreams",
+      "name": "やまびこセンター萬歳山",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 8,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(8)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(8)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(8)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(8)/Datastreams",
+      "name": "はるべの郷春日部荘",
+      "description": "風向風速/温度/湿度/雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 9,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(9)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(9)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(9)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(9)/Datastreams",
+      "name": "三尾荘",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 10,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(10)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(10)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(10)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(10)/Datastreams",
+      "name": "ふなき荘",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 11,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(11)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(11)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(11)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(11)/Datastreams",
+      "name": "上久下小学校",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 12,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(12)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(12)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(12)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(12)/Datastreams",
+      "name": "山南支所",
+      "description": "風向風速/温度/湿度/雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 13,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(13)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(13)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(13)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(13)/Datastreams",
+      "name": "和田地域づくりセンター",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 14,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(14)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(14)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(14)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(14)/Datastreams",
+      "name": "竹田小学校",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 15,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(15)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(15)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(15)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(15)/Datastreams",
+      "name": "市島支所",
+      "description": "風向風速/温度/湿度/雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 16,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(16)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(16)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(16)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(16)/Datastreams",
+      "name": "鴨庄小学校",
+      "description": "雨",
+      "properties": null
+    },
+    {
+      "@iot.id": 17,
+      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)",
+      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)/HistoricalLocations",
+      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)/Locations",
+      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)/Datastreams",
+      "name": "三輪小学校",
+      "description": "雨",
+      "properties": null
+    }
+  ]
+}
