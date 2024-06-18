@@ -1,7 +1,4 @@
-import { CSV } from "https://js.sabae.cc/CSV.js";
 import { fetchOrLoad } from "https://js.sabae.cc/fetchOrLoad.js";
-
-//const url = "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(17)/Locations";
 
 const itemnames = [
   "Things",
@@ -23,16 +20,3 @@ for (const name of itemnames) {
 }
 
 //const url = "https://www1.city.tamba.lg.jp/ja/api/v1.0/Observations?$top=10";
-
-/*
-    {
-      "@iot.id": 6,
-      "@iot.selfLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)",
-      "HistoricalLocations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/HistoricalLocations",
-      "Locations@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/Locations",
-      "Datastreams@iot.navigationLink": "https://www1.city.tamba.lg.jp/ja/api/v1.0/Things(6)/Datastreams",
-      "name": "神楽の郷交流センター",
-      "description": "雨",
-      "properties": null
-    },
-*/
